@@ -1,0 +1,37 @@
+body{
+  background: black;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  /*align-content: center;*/
+  /*height: 100%;*/
+}
+
+.container{
+  width: 100%;
+  padding: 100px 0 50px;
+  background-image: url(duality.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: silver;
+  text-shadow: 2px 2px 2px gray;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20% auto;
+  font-family: 'Syncopate', sans-serif;
+}
+
+h1{
+  font-size: 100px;
+  margin: 0;
+  margin-bottom: -50px;
+}
+
+h3{
+  font-family: 'Great Vibes', cursive;
+  font-weight: lighter;
+}
